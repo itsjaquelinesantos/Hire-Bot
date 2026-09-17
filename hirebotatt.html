@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Hire Bot</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <main class="container">
+
+
+        <section class="chatbot">
+
+
+            <header class="header">
+
+
+                <div class="bot-icon">🤖</div>
+
+
+                <div>
+                    <h1>Hire Bot</h1>
+                    <p>Your job interviewer</p>
+                </div>
+
+
+            </header>
+
+
+
+
+            <div class="chat-area">
+
+
+                <div class="message bot-message">
+
+
+                    Hi! I'm Hire Bot. 👋
+
+
+                    <br><br>
+
+
+                    I'll ask you a few questions to find out
+                    which career area might be the best fit for you.
+
+
+                </div>
+
+
+
+
+                <div class="message bot-message">
+
+
+                    And relax... I won't judge your answers.
+
+
+                    <br>
+
+
+                    Much. 👀
+
+
+                </div>
+
+
+
+
+                <div id="question-container">
+
+
+                    <div class="message bot-message" id="question">
+                    </div>
+
+
+
+
+                    <div class="answers" id="answers">
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div id="result" class="result hidden">
+
+
+                    <div class="result-icon">🎯</div>
+
+
+                    <h2>Result!</h2>
+
+
+                    <p id="result-text"></p>
+
+
+                    <div class="scores" id="scores"></div>
+
+
+                    <button class="restart-button" onclick="restart()">
+                        🔄 Try Again
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+
+</html>

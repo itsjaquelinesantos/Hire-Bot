@@ -43,13 +43,13 @@ const questions = {
     // ========================================
 
     1: {
-        text: "What are your main strengths?",
+        text: "Quais são seus principais pontos fortes?",
 
         options: [
 
             {
-                text: "My main strengths are teamwork, empathy, and learning quickly.",
-                reaction: "Ahh, how nice!",
+                text: "Meus principais pontos fortes são trabalho em equipe, empatia e facilidade para aprender.",
+                reaction: "Aaaah, que bonitinho!",
                 points: {
                     humanas: 2,
                     administracao: 2
@@ -57,16 +57,16 @@ const questions = {
             },
 
             {
-                text: "I'm really good at solving problems and understanding how things work.",
-                reaction: "Slaaaayy! You seem to enjoy a challenge.",
+                text: "Sou muito bom em resolver problemas e entender como as coisas funcionam.",
+                reaction: "Slaaaay! Você parece gostar de um desafio.",
                 points: {
                     tecnologia: 2
                 }
             },
 
             {
-                text: "I'm careful, patient, and I like helping people.",
-                reaction: "You're absolutely slaying!!",
+                text: "Sou cuidadoso, paciente e gosto de ajudar as pessoas.",
+                reaction: "Você está simplesmente arrasando!!",
                 points: {
                     saude: 2
                 }
@@ -81,29 +81,29 @@ const questions = {
     // ========================================
 
     2: {
-        text: "How do you work in a group?",
+        text: "Como você trabalha em grupo?",
 
         options: [
 
             {
-                text: "Very badly. I prefer working alone.",
-                reaction: "Easy there, Jacob. Lone wolf!",
+                text: "Muito mal. Prefiro trabalhar sozinho.",
+                reaction: "Calma aí, Jacob. Lobo solitário!",
                 points: {
                     tecnologia: 2
                 }
             },
 
             {
-                text: "Well, but only when necessary!",
-                reaction: "Okay, smart one! 😎",
+                text: "Bem, mas só quando é necessário!",
+                reaction: "Ok, espertinho! 😎",
                 points: {
                     administracao: 2
                 }
             },
 
             {
-                text: "Very well! I love brainstorming and working with a team.",
-                reaction: "Nice! Teamwork is always a good idea.",
+                text: "Muito bem! Adoro fazer brainstorm e trabalhar em equipe.",
+                reaction: "Boa! Trabalho em equipe é sempre uma boa ideia.",
                 points: {
                     humanas: 2,
                     saude: 1
@@ -119,29 +119,29 @@ const questions = {
     // ========================================
 
     3: {
-        text: "What would you take to a deserted island?",
+        text: "O que você levaria para uma ilha deserta?",
 
         options: [
 
             {
-                text: "Flashlights, batteries, and a portable stove.",
-                reaction: "As if a flashlight could feed you... but hey, that was smart.",
+                text: "Lanternas, pilhas e um fogareiro portátil.",
+                reaction: "Como se uma lanterna fosse te alimentar... mas ok, foi inteligente.",
                 points: {
                     tecnologia: 2
                 }
             },
 
             {
-                text: "Drinking water, a first-aid kit, and a good book.",
-                reaction: "Wow! Bear Grylls!",
+                text: "Água potável, um kit de primeiros socorros e um bom livro.",
+                reaction: "Uau! Bear Grylls!",
                 points: {
                     saude: 2
                 }
             },
 
             {
-                text: "A magnifying glass, books, and chocolate.",
-                reaction: "What is this? Someone's got a sweet tooth.",
+                text: "Uma lupa, livros e chocolate.",
+                reaction: "O que é isso? Alguém aqui tem um pezinho na formiga doce.",
                 points: {
                     humanas: 2
                 }
@@ -156,20 +156,20 @@ const questions = {
     // ========================================
 
     4: {
-        text: "In a zombie apocalypse, who would you be in the survivor group?",
+        text: "Em um apocalipse zumbi, quem você seria no grupo de sobreviventes?",
 
         options: [
 
             {
-                text: "The person who gathers food for the community.",
-                reaction: "What a caring person!",
+                text: "A pessoa que coleta comida para a comunidade.",
+                reaction: "Que pessoa cuidadosa!",
                 points: {
                     humanas: 2
                 }
             },
 
             {
-                text: "The person who protects the camp.",
+                text: "A pessoa que protege o acampamento.",
                 reaction: "Slaaaay!",
                 points: {
                     saude: 2
@@ -177,8 +177,8 @@ const questions = {
             },
 
             {
-                text: "The person who creates survival strategies.",
-                reaction: "Thanks, mastermind! Kkkkk.",
+                text: "A pessoa que cria estratégias de sobrevivência.",
+                reaction: "Valeu, gênio! Kkkkk.",
                 points: {
                     administracao: 2,
                     tecnologia: 1
@@ -194,29 +194,29 @@ const questions = {
     // ========================================
 
     5: {
-        text: "If you were the beaver in charge of building a dam, would you let a clownfish pass through to feed its family?",
+        text: "Se você fosse o castor responsável por construir uma represa, deixaria um peixe-palhaço passar para alimentar sua família?",
 
         options: [
 
             {
-                text: "Yes, because I'm a good person.",
-                reaction: "How kind. How adorable.",
+                text: "Sim, porque sou uma pessoa boa.",
+                reaction: "Que gentil. Que adorável.",
                 points: {
                     humanas: 2
                 }
             },
 
             {
-                text: "No. I do everything for the company and to make my boss more money.",
-                reaction: "Very good. This one really knows how to wear the company jersey.",
+                text: "Não. Faço tudo pela empresa e para deixar meu chefe mais rico.",
+                reaction: "Muito bom. Esse aqui sabe mesmo vestir a camisa da empresa.",
                 points: {
                     administracao: 2
                 }
             },
 
             {
-                text: "I'd create an alternative design so the dam could be built while giving the fish a safe passage.",
-                reaction: "Wow! An engineer from MIT!",
+                text: "Eu criaria um projeto alternativo para construir a represa e, ao mesmo tempo, garantir uma passagem segura para os peixes.",
+                reaction: "Uau! Um engenheiro formado no MIT!",
                 points: {
                     tecnologia: 2
                 }
@@ -231,21 +231,21 @@ const questions = {
     // ========================================
 
     6: {
-        text: "Who are you in a team?",
+        text: "Quem é você em uma equipe?",
 
         options: [
 
             {
-                text: "I take the leadership role. I like organizing everyone's responsibilities.",
-                reaction: "Hmm... We have a leader!",
+                text: "Eu assumo a liderança. Gosto de organizar as responsabilidades de todo mundo.",
+                reaction: "Hmm... Temos um líder!",
                 points: {
                     administracao: 2
                 }
             },
 
             {
-                text: "I'm more strategic and analytical. I'm usually pretty methodical.",
-                reaction: "Interesting...",
+                text: "Sou mais estratégico e analítico. Geralmente sou bem metódico.",
+                reaction: "Interessante...",
                 points: {
                     tecnologia: 2,
                     saude: 1
@@ -253,8 +253,8 @@ const questions = {
             },
 
             {
-                text: "I like getting my hands dirty and handling the physical part.",
-                reaction: "AH, nice! Someone's got an Art Attack childhood.",
+                text: "Gosto de colocar a mão na massa e cuidar da parte física.",
+                reaction: "Ah, boa! Alguém teve uma infância regada a Art Attack.",
                 points: {
                     humanas: 2
                 }
@@ -269,21 +269,21 @@ const questions = {
     // ========================================
 
     7: {
-        text: "What did you like to play when you were a kid?",
+        text: "Do que você gostava de brincar quando era criança?",
 
         options: [
 
             {
-                text: "I used to play doctor a lot.",
-                reaction: "A future doctor!!",
+                text: "Eu brincava muito de médico.",
+                reaction: "Um futuro médico!!",
                 points: {
                     saude: 2
                 }
             },
 
             {
-                text: "I pretended I worked in an office.",
-                reaction: "Sometimes I wonder if that's why you're in therapy today.",
+                text: "Eu fingia que trabalhava em um escritório.",
+                reaction: "Às vezes eu me pergunto se é por isso que você está na terapia hoje.",
                 points: {
                     administracao: 1,
                     tecnologia: 1
@@ -291,8 +291,8 @@ const questions = {
             },
 
             {
-                text: "I used to make up lots of stories and adventures.",
-                reaction: "What an adventurer!",
+                text: "Eu inventava várias histórias e aventuras.",
+                reaction: "Que aventureiro!",
                 points: {
                     humanas: 2
                 }
@@ -307,13 +307,13 @@ const questions = {
     // ========================================
 
     8: {
-        text: "What's the best way to lead a group?",
+        text: "Qual é a melhor maneira de liderar um grupo?",
 
         options: [
 
             {
-                text: "Build a team with people who have different personalities, so they can see things from different perspectives and bring balance to the team.",
-                reaction: "Good answer! But putting that into practice takes a LOT of patience.",
+                text: "Montar uma equipe com pessoas de personalidades diferentes, para que elas possam enxergar as coisas de perspectivas diferentes e trazer equilíbrio para o grupo.",
+                reaction: "Boa resposta! Mas colocar isso em prática exige MUITA paciência.",
                 points: {
                     administracao: 2,
                     humanas: 1
@@ -321,16 +321,16 @@ const questions = {
             },
 
             {
-                text: "Discipline and constant training.",
-                reaction: "Fair enough. That's definitely essential.",
+                text: "Disciplina e treinamento constante.",
+                reaction: "Justo. Isso é definitivamente essencial.",
                 points: {
                     administracao: 2
                 }
             },
 
             {
-                text: "The leader also needs to listen to the team so everyone can work together in harmony.",
-                reaction: "Very good, but that answer was suspiciously brief.",
+                text: "O líder também precisa ouvir a equipe para que todos possam trabalhar juntos em harmonia.",
+                reaction: "Muito bom, mas essa resposta foi suspeitamente curta.",
                 points: {
                     humanas: 2
                 }
@@ -478,13 +478,13 @@ function showResult() {
 
     const areaNames = {
 
-        humanas: "📚 Humanities",
+        humanas: "📚 Humanas",
 
-        tecnologia: "💻 Technology",
+        tecnologia: "💻 Tecnologia",
 
-        administracao: "📊 Business & Management",
+        administracao: "📊 Administração e Negócios",
 
-        saude: "🩺 Healthcare"
+        saude: "🩺 Saúde"
 
     };
 
@@ -496,16 +496,16 @@ function showResult() {
     const messages = {
 
         humanas:
-            "Your profile seems to match areas involving communication, people, creativity, education, and society. Maybe you have an interesting future in Humanities! 👀",
+            "Seu perfil parece combinar com áreas que envolvem comunicação, pessoas, criatividade, educação e sociedade. Talvez você tenha um futuro interessante em Humanas! 👀",
 
         tecnologia:
-            "You seem to enjoy solving problems, thinking strategically, and figuring out how things work. Technology might be the perfect place for your questionable genius! 💻",
+            "Você parece gostar de resolver problemas, pensar estrategicamente e descobrir como as coisas funcionam. Tecnologia pode ser o lugar perfeito para o seu questionável gênio! 💻",
 
         administracao:
-            "Organization, leadership, and planning seem to be some of your strongest skills. Maybe Business & Management is your calling! 📊",
+            "Organização, liderança e planejamento parecem ser algumas das suas maiores habilidades. Talvez Administração e Negócios sejam a sua praia! 📊",
 
         saude:
-            "Your profile shows attention to people and an interest in solving problems. Who knows? Maybe Healthcare is your thing! 🩺"
+            "Seu perfil demonstra atenção às pessoas e interesse em resolver problemas. Quem sabe Saúde seja a sua praia! 🩺"
 
     };
 
@@ -603,4 +603,3 @@ function restart() {
 // ========================================
 
 showQuestion();
-

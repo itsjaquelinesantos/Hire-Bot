@@ -62,7 +62,16 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 28px;
+    overflow: hidden;
 }
+
+.bot-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 
 
